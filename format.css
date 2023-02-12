@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -12,6 +13,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  position: relative;
 }
 
 img {
@@ -28,7 +30,9 @@ header h1 {
 }
 
 nav {
-  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 nav ul {
@@ -142,4 +146,3 @@ footer p {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
